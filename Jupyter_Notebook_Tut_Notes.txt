@@ -1,0 +1,57 @@
+shortcuts:
+shift+enter: runs cell and goes to next
+ctrl+enter: runs cell and stays on cell
+b: create new cell
+0+0: reset kernel
+
+markdown formatting:
+italics: surround text with _yay_ or *yay*
+Bold: __yay__ or **yay**
+inline: 'yay'
+>blockquote, place before the text
+[links](https://fast.ai)
+headings are done by leading #'s, # is priority one, ## priority two, up to ####
+# Heading!
+Ordered list
+1. Step 1
+	2. Step 1B
+3. Step 3
+
+Unordered list:
+* learning rate
+* cycle length
+* weight decay
+
+task list!!!!!!!
+- [x] Learn Jupyter Notebooks
+	- [x] Writing
+	- [x] Modes
+	- [x] Other Considerations
+- [ ] Change the world
+
+- [ ] Run Jupyter Notebooks locally
+	- [ ] Install Anaconda
+	- [ ] Install Jupyter Notebook - pip install jupyter
+	- [ ] Run 'jupyter notebook' in terminal from folder w/ files you want (can't access parent dirs)
+
+Command mode shortcuts
+* m: convert cell to markdown
+* y: convert cell to code
+* D+D: delete cell
+* o: toggle between hide or show output
+* Shift+Up/Down arrow: Select mult cells, so can batch run
+* Shift+m: merge selected cells
+* Shift+Tab: params to pass to fn (help)
+* Shift+Tab\*3: fn's man page/doc string
+
+Edit Mode Tricks:
+'?function-name': shows the def and docstring for fn
+'??function-name': shows the source code
+'doc(function-name)': shows def, docstring, __links to the documentation__ of the fn (*only works w/ fastai lib imported*)
+
+Line Magics!!!!:
+* fns you run on cells and take as an arg the rest of the line where they are called
+	* ex: %matplotlib inline
+	* ex2: '%reload_ext autoreload', '%autoreload 2': Reload all mdoules before executing a new line
+	* ex3: '%timeit [i+1 for i in range(1000)]': runs line 10k times, displays avg run time
+	* ex4: '%debug': allows debugging using the ipython debugger
