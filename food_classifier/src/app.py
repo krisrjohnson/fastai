@@ -18,7 +18,7 @@ with open("src/config.yaml", 'r') as stream:
 app = Flask(__name__)
 
 
-def load_model(path=".", model_name="export.pkl"):
+def load_model(path=".", model_name="model.pkl"):
     learn = load_learner(path, fname=model_name)
     return learn
 
