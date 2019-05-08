@@ -19,7 +19,7 @@ app = Flask(__name__)
 
 
 def load_model(path=".", model_name="model.pkl"):
-    learn = load_learner(path, fname=model_name)
+    learn = load_learner(path, file=model_name)
     return learn
 
 
@@ -106,7 +106,7 @@ def before_request():
     app.jinja_env.cache = {}
 
 
-model = load_model('models')
+model = load_model(path='./models')
 
 if __name__ == '__main__':
     port = os.environ.get('PORT', 5000)
