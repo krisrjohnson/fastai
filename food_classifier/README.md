@@ -8,13 +8,13 @@ Trying to create a Heroku webapp to be able to check an img from anywhere!
 #### Deploying on Heroku:
 
 On Windows and Mac:
-In the Docker Quickstart Terminal and with Heroku [CLI](https://en.wikipedia.org/wiki/Command-line_interface "cmd.exe or terminal") installed in the root folder of the web-app, build the web-app
+In the Docker Quickstart Terminal - in the root folder of the web-app, build the web-app and push locally:
 ```
 docker build -t app .
 docker run -it app -p 5000:5000
 ```
 
-Then to deploy on heroku, first login, then create the web-app if it doesn't exist. And lastly deploy.
+To deploy on heroku with [Heroku CLI](https://en.wikipedia.org/wiki/Command-line_interface "cmd.exe or terminal") installed - login, create the web-app if it doesn't exist, and deploy.
 ```
 heroku login
 heroku container:login
