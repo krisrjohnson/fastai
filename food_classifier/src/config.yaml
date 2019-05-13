@@ -5,7 +5,8 @@ about:
 
 
   The project was built by [Kris Johnson](https://github.com/krisrjohnson/fastai/tree/master/food_classifier) 
-  Deploying the webapp builds upon code from [Nidhin Pattaniyil](https://npatta01.github.io) and [Reshama Shaikh](https://reshamas.github.io)
+  Heavily used for web deployment:
+  Pattaniyil, Nidhin and Shaikh, Reshama, [Deploying Deep Learning Models On Web And Mobile](https://reshamas.github.io/deploying-deep-learning-models-on-web-and-mobile/), 2019
   Developing the models leverages [fastai](https://www.fast.ai)'s Practical Deep Learning for Coders class.
 
 
