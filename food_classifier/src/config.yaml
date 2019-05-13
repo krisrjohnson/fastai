@@ -1,24 +1,21 @@
-title: Food Images Classifier
-description: Classify food images using deep learning
+title: Grocery Images Classifier
+description: Classify grocery images using deep learning
 about:
-  This is a Food Images Classifier using Deep Learning built on top of Pytorch.
+  This is a Grocery Images Classifier (currently only cucumbers and pickles) using Deep Learning built on top of Pytorch.
 
 
-  The project was build by [Nidhin Pattaniyil](https://npatta01.github.io)
-  and [Reshama Shaikh](https://reshamas.github.io)
+  The project was built by [Kris Johnson](https://github.com/krisrjohnson/fastai/tree/master/food_classifier) 
+  Deploying the webapp builds upon code from [Nidhin Pattaniyil](https://npatta01.github.io) and [Reshama Shaikh](https://reshamas.github.io)
+  Developing the models leverages [fastai](https://www.fast.ai)'s Practical Deep Learning for Coders class.
 
 
-  More info and the source code can be found [here](https://github.com/npatta01/Bird-Classifier)
-
-code: https://github.com/npatta01/web-deep-learning-classifier
+code: https://github.com/krisrjohnson/fastai/tree/master/food_classifier
 
 sampleImages:
-  - name: lasagne
-    url: https://upload.wikimedia.org/wikipedia/commons/b/ba/Lasagne_-_stonesoup.jpg
-  - name: sushi
-    url: https://upload.wikimedia.org/wikipedia/commons/6/60/Sushi_platter.jpg
-  - name: waffles
-    url: https://upload.wikimedia.org/wikipedia/commons/5/5b/Waffles_with_Strawberries.jpg
+  - name: pickle
+    url: https://upload.wikimedia.org/wikipedia/commons/b/bb/Pickle.jpg
+  - name: cucumber
+    url: https://upload.wikimedia.org/wikipedia/commons/a/a3/Cucumber_BNC.jpg
   - name: eggplant (not in training data)
     url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Solanum_melongena_24_08_2012_%281%29.JPG/1280px-Solanum_melongena_24_08_2012_%281%29.JPG
   - name: table (not in training & not a food)
