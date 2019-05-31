@@ -8,9 +8,20 @@ Checklist:
 - [ ] Lesson 06: 
 - [ ] Lesson 07: 
 
-[forums](https://forums.fast.ai/)
+[git info][gitbranch] - git's killer feature!
 
 SHUTDOWN YOUR SERVER(??)
 
 # Hello!
 ### Subtitle
+
+```python
+def myFun(yellow):
+	counter = 12
+	for color in yellow:
+		print(f'{counter}: is twelve')
+```
+
+
+[forums](https://forums.fast.ai/)
+[gitbranch]: https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell
