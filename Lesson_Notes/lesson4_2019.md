@@ -1,4 +1,4 @@
-# #[Video 4][vid4]
+# [Video 4][vid4]
 ___
 
 
@@ -113,6 +113,14 @@ A: Lookup - check forums
 
 #### Break-1:07
 Rest of course is gonna be digging deeper into key applications and theory/source code.
+
+
+Set up a vim so you can tab complete through source code. 
+
+##### Super simple linear regression movie rating predictor
+A super simple linear score prediction model using RMSE (root MSE) activation fn. From IMDB, take top 15 users by most amount of movies watched, and top 15 movies by most amount of times watched and take those users scores of those movies. So 15x15 matrix w/ user ratings (some NULLs where not watched obviously).
+
+
 
 
 
