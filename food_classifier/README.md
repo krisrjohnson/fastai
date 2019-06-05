@@ -43,9 +43,11 @@ Types of vegetables [link][digitalcommons.usu]
 - Cole/Cruciferous Crops (cabbage, cauliflower, broccoli, brussel sprouts, kale, kohlrabi, bok choy)
 - Solanaceous (tomato, pepper, eggplant, tomatillo, potato)
 
-Checklist: Cucumbers, Pickles
+Checklist: 
+'asparagus','rhubarb', 'horseradish', 'carrot', 'beet', 'radish', 
 
-'asparagus','rhubarb','horseradish', 'carrot','beet', 'radish', 'rutabaga',
+#to go
+'rutabaga',
 'turnip','parsnip','sweet_potato','yam', 'pea','bean','soybean','limabean', 'onion','garlic','shallot',
 'leek','chive','scallion', 'lettuce','celery','swiss_chard','parsley','endive','chicory','dandelion',
 'spinach','kale','New_Zealand_spinach','collards', 'squash','melons','cantaloupe','pumpkins',
