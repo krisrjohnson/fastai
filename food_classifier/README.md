@@ -5,6 +5,24 @@ Have started a classifier already to identify vegetables (started w/ cucumbers v
 
 Trying to create a Heroku webapp to be able to check an img from anywhere!
 
+v1:
+- Pickles v Cucumbers
+v+:
+- Common grocery store foods
+  - MNIST data
+- Webcam/PhoneCam enabled
+  - grocery list
+  - grocery efficiency
+    - homecooked/week,
+    - veggies tossed vs eaten,
+    - cal/macro consumption
+- Recipe incorporation
+  - ML img to text
+  - Library cookbooks
+- Recipe recommender
+  - RT grocery list prices
+
+
 #### Deploying on Heroku:
 
 On Windows and Mac:
